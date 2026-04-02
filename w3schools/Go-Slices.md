@@ -98,3 +98,6 @@ Syntax
 slice_name := make([]type, length, capacity)
 
 Note: If the capacity parameter is not defined, it will be equal to length.
+
+## On slice modification
+Go slices allow access and modification via 0-based indexing and enable dynamic resizing through the append() function, including merging slices with the ... operator. Length can be altered by re-slicing or appending, while the copy() function provides memory efficiency by creating smaller underlying arrays to prevent holding large, unnecessary data in memory.
