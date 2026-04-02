@@ -8,6 +8,7 @@ For collections like arrays or slices, the range keyword is the easiest way to g
 
 
 ```go 
+
 package main
 import ("fmt")
 
